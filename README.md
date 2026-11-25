@@ -1,12 +1,11 @@
 # 3d_print
 
-Printable parts for the lab robots. CAD/print files are stored with Git LFS
-(`git lfs install` once per machine before cloning).
+Printable parts for the lab robots.
 
 | Folder / file | What |
 |---|---|
-| `franka_camera_mount/` | RealSense D405 / D435 mounts for Franka and Nero |
-| `franka_fingers_parallel_pla/` | Striped sensing fingers (L60/L80/L100), PLA |
-| `franka_fingers_umi_tpu/` | UMI fingers, soft/medium/firm TPU |
-| `gello_franka_fr3/` | GELLO teleop arm parts for FR3 |
-| `franka_fingers.3mf`, `gello.3mf` | Bambu Studio print plates |
+| `camera_mount/` | RealSense mounts: D405/D435 wrist mounts for FR3 and NERO; D435 tabletop mounts at 0°, 45° and 90° |
+| `fr3_fingers_parallel/` | Striped sensing fingers (L60/L80/L100) |
+| `fr3_fingers_umi/` | UMI fingers, soft/medium/firm TPU |
+| `fr3_gello/` | GELLO teleop arm parts for FR3 (see its README) |
+| `gello.3mf`, `workspace.3mf` | Bambu Studio print plates |
